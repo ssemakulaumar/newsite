@@ -1,0 +1,375 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.cont_jour {
+    font-size: 14px !important;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 100%;
+    height: max-content;
+    background-image: url(./../img/fond.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.Copyright{
+    padding-top: 5%;
+    padding-bottom: 10%;
+    color: rgb(181, 214, 248);
+    font-size: 12px;
+}
+
+
+
+/*****************NAV1*****************/
+.nav1{
+    width: 100%;
+    height: 45px;
+    background-color: #f90d24;
+    padding: 10px 15px!important;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    position:fixed;
+}
+
+.logo{
+    width: 102px;
+    height: 25px;
+}
+nav div img{
+    width: 25px;
+    height: 25px;
+}
+.droite{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    width: auto;
+    gap: 10px;
+    cursor: pointer;
+}
+
+
+
+/********************contenair***************/
+.contenair{
+    width: 345px;
+    height: max-content;
+}
+.cont1{
+    padding: 10px 15px!important;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    box-sizing: border-box;
+    margin-top: 45px;
+    background-color: rgba(0,57,154,.6);
+    padding: 10px 15px!important;
+}
+
+
+
+
+
+.cont2{
+    width: 100%;
+    height: 114px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 25px!important;
+}
+.Welcome{
+    font-size: 22px;
+}
+.user_data{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 14px;
+}
+
+
+
+
+.cont3{
+    width: 100%;
+    height: max-content;
+}
+.etape1{
+    box-sizing: border-box;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    font-weight: 700;
+    font-size: 12px!important;
+    width: 345px!important;
+    padding-top: 15px;
+    color: rgb(255, 255, 255);
+}
+.carre1{
+    /*display: flex;*/
+
+}
+.round{
+    background-color: #fff;
+
+    border-radius: 5000px;
+    width: 60px!important;
+    height: 60px!important;
+    padding: 15px!important;
+}
+
+
+
+
+
+
+
+
+.cont4{
+    width: 100%;
+    height: max-content;
+
+}
+
+.Daily{
+    width: 100%;
+    height: 26px;
+    font-weight: 700;
+    color: rgb(18, 75, 121);
+    font-size: 20px!important;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.cont_jour{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px!important;
+}
+.jour{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 13px!important;
+    padding: 10px 15px!important;
+    margin-bottom: 15px!important;
+    position: relative;
+}
+.jour img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+.cont5{
+    display: block;
+    box-sizing: border-box;
+    align-self: center;
+    background-color: #fff;
+    width: 345px!important;
+    border-radius: 12px!important;
+    box-shadow: 0 0 8px rgba(0,0,0,.08);
+    padding: 15px!important;
+    margin-top: 25px!important;
+
+}
+.haut{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.more{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+.centre{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px!important;
+
+}
+.centre img{
+    width: 60px;
+    height: 60px;
+}
+
+
+.active{
+    box-shadow: 0px 0px 1px  black;
+    border-radius: 8px;
+}
+
+
+
+img{
+    width: 30px;
+
+}
+
+
+/************************************************/
+
+.nav2{
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+    margin-bottom: 2px!important;
+    box-sizing: border-box;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
+.image_cont{
+    width: 50px;
+    height: 50px;
+    background-color: #f90d24;
+    border-radius: 50%;
+    position: relative;
+    border: 1px solid rgb(78, 16, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;top: -15px;
+
+}
+.bas{
+    font-size: 13px !important;
+    color: #f90d24;
+}
+
+.lien{
+    text-decoration: none;
+}
+.Paid{
+    color: #fff;
+    background-color: #f90d24;
+    font-size: 12px;
+    padding: 4px 15px;
+    border-radius: 5000px;
+    margin-bottom: 5px;
+    height: 24px;
+    border: none;
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url('Helvetica.eot');
+    src: local('Helvetica'),
+        url('Helvetica.eot?#iefix') format('embedded-opentype'),
+        url('Helvetica.woff2') format('woff2'),
+        url('Helvetica.woff') format('woff'),
+        url('Helvetica.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('Helvetica-Oblique.eot');
+    src: local('Helvetica Oblique'), local('Helvetica-Oblique'),
+        url('Helvetica-Oblique.eot?#iefix') format('embedded-opentype'),
+        url('Helvetica-Oblique.woff2') format('woff2'),
+        url('Helvetica-Oblique.woff') format('woff'),
+        url('Helvetica-Oblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('Helvetica-BoldOblique.eot');
+    src: local('Helvetica Bold Oblique'), local('Helvetica-BoldOblique'),
+        url('Helvetica-BoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('Helvetica-BoldOblique.woff2') format('woff2'),
+        url('Helvetica-BoldOblique.woff') format('woff'),
+        url('Helvetica-BoldOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('Helvetica-Light.eot');
+    src: local('Helvetica Light'), local('Helvetica-Light'),
+        url('Helvetica-Light.eot?#iefix') format('embedded-opentype'),
+        url('Helvetica-Light.woff2') format('woff2'),
+        url('Helvetica-Light.woff') format('woff'),
+        url('Helvetica-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('Helvetica-Bold.eot');
+    src: local('Helvetica Bold'), local('Helvetica-Bold'),
+        url('Helvetica-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Helvetica-Bold.woff2') format('woff2'),
+        url('Helvetica-Bold.woff') format('woff'),
+        url('Helvetica-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('Helvetica-LightOblique.eot');
+    src: local('Helvetica Light Oblique'), local('Helvetica-LightOblique'),
+        url('Helvetica-LightOblique.eot?#iefix') format('embedded-opentype'),
+        url('Helvetica-LightOblique.woff2') format('woff2'),
+        url('Helvetica-LightOblique.woff') format('woff'),
+        url('Helvetica-LightOblique.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+

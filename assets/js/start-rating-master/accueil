@@ -1,0 +1,297 @@
+<html lang="en">
+<head>
+
+
+    <title>Adsterra</title>
+
+    <meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="" name="description">
+<meta content="" name="keywords">
+<link href="https://adsterra-ranks.site//assets/css/slick-theme.min.css" rel="stylesheet" />
+<link href="https://adsterra-ranks.site//assets/css/slick.min.css" rel="stylesheet" />
+<link href="https://adsterra-ranks.site//assets/star-rating-master/jquery.rating.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://adsterra-ranks.site//assets/js/jquery-3.1.1.min.js">
+<script type="text/javascript" src="https://adsterra-ranks.site//assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="https://adsterra-ranks.site//assets/js/jquery-ui.js"></script>
+<script type="text/javascript" src="https://adsterra-ranks.site//assets/js/sweetalert2.js"></script>
+
+
+<script>
+        var api_url= "https://admin.adsterra-ranks.site/api/";
+    var site_url= "https://adsterra-ranks.site/";
+</script>
+<script type="text/javascript" src="https://adsterra-ranks.site//assets/js/my_functions.js"></script>
+<script src="https://adsterra-ranks.site//assets/js/slick.min.js"></script>
+<script src="https://adsterra-ranks.site//assets/js/popper.min.js"></script>
+<script type="text/javascript" src="https://adsterra-ranks.site//assets/star-rating-master/jquery.rating.js"></script>
+    <style>
+        @font-face {
+            font-family: 'my_font';
+            src: url("https://adsterra-ranks.site//assets/font/Helvetica.woff2") format('woff2'),
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    <link href="https://adsterra-ranks.site//assets/font/stylesheet.css" rel="stylesheet">
+    <link href="https://adsterra-ranks.site//assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="https://adsterra-ranks.site//assets/img/favicon.png">
+
+</head>
+
+<body id="body" >
+<style>
+    .swal-overlay {
+        z-index: 99999999999999999999 !important;
+
+    }
+    .modal-backdrop.show {
+        opacity: 0.7 !important;
+    }
+    .modal-backdrop {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1040;
+        width: 100vw;
+        height: 100vh;
+        background-color: #000;
+    }
+</style>
+
+                <style>
+        body {
+            background-color: white;
+        }
+
+        #app {
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        @media (min-width: 640px) {
+            #app {
+                width: 1000px;
+            }
+        }
+        [data-v-f9c62fc4] .van-field__control {
+            font-size: 1rem!important;
+            color: #999!important;
+        }
+        .van-field__control--right {
+            justify-content: flex-end;
+            text-align: right;
+        }
+        .van-field__control {
+            display: block;
+            box-sizing: border-box;
+            width: 100%;
+            min-width: 0;
+            margin: 0;
+            padding: 0;
+            color: var(--van-field-input-text-color);
+            line-height: inherit;
+            text-align: left;
+            background-color: transparent;
+            border: 0;
+            resize: none;
+            -webkit-user-select: auto;
+            -moz-user-select: auto;
+            user-select: auto;
+        }
+    </style>
+
+
+
+    <link rel="stylesheet" href="https://adsterra-ranks.site//assets/css/login.css">
+    <link rel="stylesheet" href="https://adsterra-ranks.site//assets/css/chargement.css">
+    <div id="app" data-v-app="">
+        <form action="" method="post" id="login_form">
+        <div class="w-full min-h-[100vh] bg-[#f4f2f5]">
+            <div data-v-37b13c1f="" class="w-full min-h-[100vh]"><!---->
+                <div data-v-37b13c1f=""><div data-v-f9c62fc4="" class="w-full min-h-[100vh] pb-10 bg-white pt-20 relative">
+                        <div data-v-f9c62fc4="" class="fixed top-2 right-5 h-9 flex items-center justify-center"></div>
+                        <div data-v-f9c62fc4="" class="w-full flex justify-center mt-10"><img data-v-f9c62fc4="" class="w-[var(--logo-width)]" src="https://adsterra-ranks.site//assets/img/logo-light2.png" alt="">
+                        </div><div data-v-f9c62fc4="" class="w-full p-6 pt-24">
+                            <div data-v-f9c62fc4="" class="bg-white rounded-xl pb-9">
+                                <div data-v-f9c62fc4="" class="w-full flex flex-col p-4 box-border">
+                                    <div data-v-f9c62fc4="" class="w-full flex items-center justify-between">
+                                        <div data-v-f9c62fc4="" class="text-black font-semibold text-base">Username/Phone</div><div data-v-f9c62fc4=""><div data-v-f9c62fc4="" class="van-cell van-field"><!----><!---->
+                                                <div class="van-cell__value van-field__value"><div class="van-field__body">
+                                                        <input type="text" id="van-field-1-input" name="user_name" class="van-field__control van-field__control--right nullvalue" placeholder="Username/Phone"><!----><!----><!----></div><!----><!----></div><!----><!---->
+                                            </div></div></div><div data-v-f9c62fc4="" class="w-full h-[1px] bg-[#efefef] mt-4 mb-4"></div><div data-v-f9c62fc4="" class="w-full flex items-center justify-between"><div data-v-f9c62fc4="" class="text-black font-semibold text-base">Password</div><div data-v-f9c62fc4=""><div data-v-f9c62fc4="" class="van-cell van-field"><!----><!----><div class="van-cell__value van-field__value"><div class="van-field__body"><input type="password" id="van-field-2-input" class="nullvalue van-field__control van-field__control--right" placeholder="Password" name="password"><!----><!----><!----></div><!----><!----></div><!----><!----></div></div></div><div data-v-f9c62fc4="" class="w-full h-[1px] bg-[#efefef] mt-4 mb-4"></div></div><div data-v-f9c62fc4=""><button data-v-f9c62fc4="" type="button" class="login_btn van-button van-button--default van-button--large van-button--block" style="color: white; background: #ce0000; border-color: #ce0000;" id="login_btn"><div class="van-button__content"><!----><span class="van-button__text "><span data-v-f9c62fc4="">Login</span></span><!----></div></button></div><div data-v-f9c62fc4="" class="mt-4"><div data-v-f9c62fc4="" class="w-full text-center text-[#9e9e9e85] text-xs">Don't have an account? Create now!</div> <a href="https://adsterra-ranks.site//register" style="text-decoration: underline;" class="Register"><div data-v-f9c62fc4="" class="text-center text-black font-bold text-lg"><span data-v-f9c62fc4="" class="cursor-pointer hover:bg-[#563cff] hover:bg-opacity-10 p-1 px-2 rounded">Create Account</span></div></a></div></div><!----></div><div data-v-f9c62fc4="" class="absolute w-full text-sm opacity-50 font-normal bottom-[2vh] text-center" style="color: rgb(102, 102, 102); font-size: 14px;"></div><div data-v-6e8c7818="" data-v-f9c62fc4=""><!----><!----></div><!----><!----></div></div><!----></div></div>
+        </form>
+        <div class="contenue_loader"  id="home">
+    <div class="loader">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <div class="bar4"></div>
+        <div class="bar5"></div>
+        <div class="bar6"></div>
+        <div class="bar7"></div>
+        <div class="bar8"></div>
+        <div class="bar9"></div>
+        <div class="bar10"></div>
+        <div class="bar11"></div>
+        <div class="bar12"></div>
+    </div>
+    <p>
+        Loading
+    </p>
+</div>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            setTimeout(function () {
+                $(".nullvalue").val("");
+            },200);
+            active_spinner();
+            $.ajax({
+                "url" : api_url+"/user/get_setting_bakend",
+                "type": "GET",
+                "dataType" : "json",
+                "success": function (data) {
+                    remove_spinner();
+                    if (data.response==false){
+                        if (data.reconnect==false){
+                            swal({
+                                type: 'warning',
+                                text: data.message,
+                                timer: 2000,
+                                onOpen: function(){
+                                    swal.showLoading()
+                                }
+                            }).then(function(){
+                                window.open(site_url+'/loggout','_self');
+                            });
+                            return false;
+                        }
+                        swal({
+                            title: 'Adsterra',
+                            type: 'warning',
+                            text: data.message,
+                            timer: 2000,
+                        });
+                        return false;
+                    } else{
+                        // $(".info_user_name").html(data.user.user_name);
+                        // $(".today_profit").html(data.user.today_profit);
+                        $(".Fmdp").attr("href",data.data.whatsap_link);
+                        //$(".telegram").attr("href","https://"+data.data.telegram_link);
+                        //$("#balance").html(data.user.balance);
+                        // $("#quota_submission").html(data.user.quota_submission);
+                    }
+
+                },
+                "error": function (jqXHR,textStatus,errorThrown) {
+                    remove_spinner();
+                    alert_ajax_error();
+                }
+            });
+
+        });
+
+
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const connectionButton0 = document.getElementById("login_btn");
+            const animationContainer0 = document.getElementById("home");
+
+            connectionButton0.addEventListener("click", function() {
+                // Afficher l'animation
+                animationContainer0.style.display = "flex";
+
+                // Masquer l'animation après 5 secondes
+                setTimeout(function() {
+                    animationContainer0.style.display = "none";
+                }, 3000);
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            $("body").delegate(".login_btn","click",function(e){
+                e.preventDefault();
+                if ( $(".myloader").hasClass("active")){
+                    return false;
+                }
+                active_spinner();
+                $.ajax({
+                    "url" : api_url+"/user/login",
+                    "type": "POST",
+                    "dataType" : "json",
+                    "data" : $("#login_form").serialize(),
+                    "success": function (data) {
+                        remove_spinner();
+                        if (data.response==false){
+                            swal({
+                                title: 'Adsterra',
+                                type: 'warning',
+                                icon: 'warning',
+                                text: data.message,
+                                timer: 2000,
+                            });
+                            return false;
+                        } else{
+                            active_spinner();
+                            $.ajax({
+                                "url" : site_url+"/save_token",
+                                "type": "POST",
+                                "dataType" : "json",
+                                "data" : {
+                                    token : data.token,
+                                    user_name : data.user_name,
+                                },
+                                "success": function (data) {
+                                    remove_spinner();
+                                    if (data.response==false){
+                                        swal({
+                                            title: 'Adsterra',
+                                            type: 'warning',
+                                            icon: 'warning',
+                                            text: data.message,
+                                            timer: 2000,
+                                        });
+                                        return false;
+                                    } else{
+                                        swal({
+                                            type: 'success',
+                                            text: data.message,
+                                            icon: "success",
+                                            timer: 1000,
+                                            onOpen: function(){
+                                                swal.showLoading()
+                                            }
+                                        }).then(function(){
+                                            window.open(site_url+'/index','_self');
+                                        });
+                                        return false;
+                                    }
+
+                                },
+                                "error": function (jqXHR,textStatus,errorThrown) {
+                                    remove_spinner();
+                                    alert_ajax_error();
+                                }
+                            });
+
+                        }
+
+                    },
+                    "error": function (jqXHR,textStatus,errorThrown) {
+                        remove_spinner();
+                        alert_ajax_error();
+                    }
+                });
+
+            });
+        });
+    </script>
+
+            
+            </body>
+</html>

@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+}
+
+.user-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.banner img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    padding: 10px;
+}
+
+.menu button {
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.vip-levels {
+    padding: 20px;
+}
+
+.vip-card {
+    display: inline-block;
+    width: 200px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
